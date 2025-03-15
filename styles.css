@@ -123,5 +123,12 @@ body {
   font-weight: var(--font-weight-bold);
   padding: var(--space-sm);
   width: 100%;
-  transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.card-links a:hover {
+  background-color: var(--green);
+  color: var(--grey-700);
+  cursor: url('assets/images/handcursor.svg') 16 16, pointer;
+  transform: scale(0.98);
 }
